@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Hashemit Kingdom ministry of education" />
+    <title>Ministry Of Education</title>
+  </head>
+  <body>
+    <header>
+      <h1>The Hashemite Kingdom Of Jordan - The Ministry Of Education</h1>
+      <img src="../images/logo.png" alt="LOGO" />
+      <a href="http://moe.gov.jo/" target="_blank">Home</a>
+      <a href="http://moe.gov.jo/node/15781" target="_blank">About us</a>
+      <a href="http://moe.gov.jo/services/1" target="_blank">Services</a>
+    </header>
+    <hr />
+
+    <main>
+      <form>
+        <h4>أدخل معلومات الطالب</h4>
+        <input type="text" name="stname" placeholder="Student Name" required />
+        <br />
+        <br />
+        <input
+          type="number"
+          name="stnumber"
+          placeholder="Student Number"
+          required
+        />
+        <br />
+        <br />
+        <input type="email" name="stemail" placeholder="Student email" />
+        <br />
+        <br />
+        <label for="province">province : </label>
+        <select name="province" id="province">
+          <option value="Zarqa" selected>Zarqa</option>
+          <option value="Aqaba">Aqaba</option>
+          <option value="Amman">Amman</option>
+          <option value="Irbid">Irbid</option>
+          <option value="Jarash">Jarash</option>
+          <option value="Mafraq">Mafraq</option>
+        </select>
+        <br />
+        <p>Gender</p>
+        <input type="radio" name="gender" value="Male" id="male" />
+        <label for="male">Male</label>
+        <br />
+        <input type="radio" name="gender" value="Female" / id="female">
+        <label for="female">Female</label>
+        <br /><br /><br />
+        <input type="submit" value="Search" />
+        <input type="reset" value="Reset" />
+        <button type="button">Home</button>
+      </form>
+
+      <br /><br /><br />
+      <table border="1">
+        <thead>
+          <th>Subject name</th>
+          <th>First exam</th>
+          <th>Second exam</th>
+          <th>Total</th>
+          <th>Result</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>##</td>
+            <td>##</td>
+            <td>##</td>
+            <td>##</td>
+            <td>##</td>
+          </tr>
+          <tr>
+            <td>##</td>
+            <td>##</td>
+            <td>##</td>
+            <td>##</td>
+            <td>##</td>
+          </tr>
+          <tr>
+            <td>##</td>
+            <td>##</td>
+            <td>##</td>
+            <td>##</td>
+            <td>##</td>
+          </tr>
+          <tr>
+            <td>##</td>
+            <td>##</td>
+            <td>##</td>
+            <td>##</td>
+            <td>##</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">ِAverage</td>
+            <td>##</td>
+          </tr>
+        </tfoot>
+      </table>
+      <br />
+      <hr />
+    </main>
+    <br /><br /><br />
+    <footer>&copy; Copyright c 2022 moe.gov.jo</footer>
+  </body>
+</html>
